@@ -4,6 +4,7 @@ import Header from './Header'
 import Content from './Content'
 import Sponsor from './Sponsor'
 import Bar from './Bar'
+import Footer from './Footer'
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,8 +16,9 @@ class App extends Component {
         <Banner/>
         <Header/>
         <Content/>
-        <Bar/>
         <Sponsor/>
+        <Bar/>
+        <Footer/>
       </div>
       </div>
     );
